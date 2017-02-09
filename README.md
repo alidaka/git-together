@@ -68,7 +68,7 @@ without manual configuration.
 
 Under the hood, `git-together` sets `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`,
 `GIT_COMMITTER_NAME`, and `GIT_COMMITTER_EMAIL` for the `commit`, `merge`, and
-`revert` subcommands so that git commits have the correct attribution..
+`revert` subcommands so that git commits have the correct attribution.
 `git-together` also adds the `--signoff` argument to the `commit` and `revert`
 subcommands so that the commit message includes the `Signed-off-by: ` line.
 
